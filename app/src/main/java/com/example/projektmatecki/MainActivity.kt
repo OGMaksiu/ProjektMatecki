@@ -34,7 +34,12 @@ class MainActivity : AppCompatActivity() {
                 x = 1
             }
         }
-
+        previous.setOnClickListener{
+            x--
+            if(x==-1|| x==0){
+                findViewById<ImageView>(R.id)
+            }
+        }
 
 
     }
